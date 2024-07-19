@@ -164,10 +164,7 @@ Open the `open_world.launch` file in the `launch` folder of the `pgm_map_creator
 Open the `request_publisher.launch` file in the `launch` folder of the `pgm_map_creator` package. Based on your `.world` file, set the relevant parameters for the mapping area range: `xmin`, `xmax`, `ymin`, `ymax`, and the map resolution `resolution`. The commonly used default value for resolution is 0.05.
 
 
-## (5) Modify the `request_publisher.launch` file
-
-
-Use the `pgm_map_creator` package to generate the map
+## (5) Use the `pgm_map_creator` package to generate the map
 
 After making the above modifications, you can now execute the following two commands sequentially to generate the pgm map file for your own `.world` file:
 
