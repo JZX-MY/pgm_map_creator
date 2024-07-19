@@ -202,5 +202,14 @@ negate: 0
 ```
 
 The parameters `resolution` and `origin` are based on the arguments in `request_publisher.launch`.The `image` parameter is the name of the map generated in the previous step. If you manually renamed the map, you need to update this parameter accordingly. In our provided example, it has been manually renamed to `test.pgm`. Alternatively, you can modify the `map_name` parameter in the `request_publisher.launch` file to directly generate a pgm map with the specified name.
+
+
+
+# 5、**Acknowledgments**
+
+
+This project is based on the open-source `pgm_map_creator` project by hyfan1116, available at: [pgm_map_creator](https://github.com/hyfan1116/pgm_map_creator). Due to updates in ROS, Boost, and Gazebo versions, the original project is no longer functional. Our main contribution is updating and fixing the project to ensure compatibility with Ubuntu 20.04, ROS Noetic, Boost 1.71, Gazebo 11, and C++ 17, allowing it to run smoothly in these environments. We extend our gratitude to hyfan1116 for the original `pgm_map_creator` project.
+
+
  
 
