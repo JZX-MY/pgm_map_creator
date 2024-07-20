@@ -137,7 +137,10 @@ After the program runs successfully, a file named `map.pgm` will be generated in
 </div>
 
 
-Note that the example environment mentioned above includes some third-party models. If these models are not downloaded on your computer, the Gazebo environment you open may be missing some parts compared to the illustrations above. Additionally, since the system may keep searching for the missing files, the time taken to open Gazebo could be longer. Taking this into consideration, we have added a new, simpler test example that does not include any third-party models, named 'test2.world'. Additionally, we have changed the default test file to this new file.
+Note that the example environment mentioned above includes some third-party models. If these models are not downloaded on your computer, the Gazebo environment you open may be missing some parts compared to the illustrations above. Additionally, since the system may keep searching for the missing files, the time taken to open Gazebo could be longer. Taking this into consideration, we have added a new, simpler test example that does not include any third-party models, named 'test2.world'. Additionally, we have changed the default test file to this new file,as shown in the dynamic demonstration of the testing process below:.
+
+
+![Example_Environment2](assets/Example_Environment2.png)
 
 
 # 4、**How to Use in Your Own .World File**
