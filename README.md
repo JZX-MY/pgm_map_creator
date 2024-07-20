@@ -137,6 +137,9 @@ After the program runs successfully, a file named `map.pgm` will be generated in
 </div>
 
 
+Note that the example environment mentioned above includes some third-party models. If these models are not downloaded on your computer, the Gazebo environment you open may be missing some parts compared to the illustrations above. Additionally, since the system may keep searching for the missing files, the time taken to open Gazebo could be longer. Please be patient, or you can choose to skip this step and directly follow the subsequent steps to verify if the package runs correctly in your own `.world` file.
+
+
 # 4、**How to Use in Your Own .World File**
 
 ## (1) Copy your `.world` file to the `worlds` folder of the `pgm_map_creator` package.
