@@ -2,7 +2,7 @@
 
 <launch>
   <!-- World File -->
-  <arg name="world_file" default="$(find pgm_map_creator)/worlds/test.world"/>
+  <arg name="world_file" default="$(find pgm_map_creator)/worlds/test2.world"/>
   <!-- Launch Gazebo World -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="use_sim_time" value="true"/>
